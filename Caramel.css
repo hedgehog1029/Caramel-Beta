@@ -101,7 +101,7 @@ table {
   .collapse:hover, .collapse:active {
     background-color: #F2F2F2; }
   .collapse li {
-    display: inline-block; }
+    display: block; }
 
 .page {
   margin-left: auto;
