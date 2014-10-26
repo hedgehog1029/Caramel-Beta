@@ -37,6 +37,7 @@ $(document).ready(function() {
         //On Expand Pressed
         $(".bar .collapse").click(function() {
             $(this).siblings('a').children('li').slideToggle('medium');
+            $(".bar li").css({"display": "block"});
 
         });
 
