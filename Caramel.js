@@ -20,7 +20,7 @@ $(document).ready(function() {
         $(window).resize(function() {
             if ($(window).width() >= 600) {
                 $(".bar li").css({
-                    "display": "block"
+                    "display": "inline-block"
                 });
                 $(".bar .collapse").css({
                     "display": "none"
