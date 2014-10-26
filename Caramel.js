@@ -9,6 +9,8 @@
  *  FONTAWESOME - @DaveGandy - http://fontawesome.io/
  */
 
+// TALONS PLS FIX ME
+
 $(document).ready(function() {
 
 // Navbar Collapse
@@ -18,7 +20,7 @@ $(document).ready(function() {
         $(window).resize(function() {
             if ($(window).width() >= 600) {
                 $(".bar li").css({
-                    "display": "inline-block"
+                    "display": "block"
                 });
                 $(".bar .collapse").css({
                     "display": "none"
